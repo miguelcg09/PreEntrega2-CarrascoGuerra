@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- METADATOS -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Miguel Carrasco">
+    <meta name="description" content="Portafolio Desarrollo Web Coderhouse">
+    <meta name="keywords" content="HTML, CSS, JavaScript React">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo -->
+    <title>Portafolio Miguel Carrasco</title>
+    <!-- fAVICON -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon-16x16.png">
+    <!--Instalación de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik&display=swap" rel="stylesheet">
+    <!-- iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body class="body-nohome c-white-bg">
+    <header>
+        <!-- Barra de navegacion -->
+        <nav class="navbar navbar-expand-lg align-content-center navbar-light nav-nohome" aria-label="navigation">
+            <div class="container-fluid">
+                <a class="logo-container navbar-brand" href="../index.html">
+                    <img class="logo-nohome img-fluido" src="../assets/img/logomc-removebg-preview.png" width="100"
+                        alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+                    <ul class="nav-underline navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./acerca.html">Acerca</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./skills.html">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- main -->
+    <main>
+        <section class="container-fluid contacto">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12 texto-blanco">
+                        <h1 class="text-center">¡Hablemos!</h1>
+                    </div>
+                </div>
+                <div class="container-contc d-flex flex-column align-items-lg-center justify-content-lg-center ">
+                    <div class="col-lg-6 ">
+                        <form action="mailto:MIGUEL@gmail.com" method="post" enctype="text/plain">
+                            <div class="form-group">
+                                <label for="name">Nombre:</label>
+                                <input type="text" id="name" name="name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Asunto:</label>
+                                <input type="text" id="subject" name="subject" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensaje:</label>
+                                <textarea id="message" name="message" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn">Enviar
+                            </button></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="../Bootstrap F.C.C/assets/img/icono-blanco.svg" alt="">
+        <p class="footer-texto text-center">"Hagamos realidad tu proyecto" <br>Contactame por mis diferentes RRSS</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope-at-fill"></i>
+            </a>
+            <a href="https://instagram" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+        </div>
+        <div class="derechos-autor">Creado por Miguel Carrasco (2023) &#169;</div>
+    </footer>
+    <!-- Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
