@@ -389,10 +389,12 @@ footer {
   color: black;
 }
 
+
 .derechos-de-autor {
   font-size: 15px;
   color: #aeaeae;
   padding: 20px;
+  margin-top:  2px solid green;
 }
 
 
