@@ -336,15 +336,10 @@ h1 {
   display: flex;
 }
 
-/* .contacto .container-fluid button:hover {
-  transform: scale(1.02);
-  transition: all 0.5s;
-  background-color: #365e4b;
+.btn:hover {
+  background-color: rgb(158, 26, 230);
   color: white;
-} */
-
-
-
+}
 
 /* footer */
 
